@@ -1,0 +1,167 @@
+
+\documentclass[11pt]{article}
+%\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+%\textheight=10in
+\pagestyle{empty}
+%\raggedbottom
+\raggedright
+\usepackage{fullpage}
+
+\addtolength{\oddsidemargin}{-.2in}
+\addtolength{\evensidemargin}{-.2in}
+\addtolength{\textwidth}{.4in}
+
+%\setlength{\topmargin}{2in}
+
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.5in}
+
+%  \renewcommand{\encodingdefault}{cg}
+  %\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newcommand{\tab}{\hspacet *{2em}}
+
+\newcommand{\area}[2]{\vspace*{-9pt} \begin{verse}\textbf{#1}   #2 \end{verse}  }
+\newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
+\newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
+\newcommand{\employer}[3]{{ \textbf{#1} \hfill #2\\ \textbf{\emph{#3}}\\  }}
+\newcommand{\employerwithguide}[4]{{ \textbf{#1} \hfill(#2)\\ \textbf{\emph{#3}}\\ \emph{#4}  }}
+\newcommand{\project}[3]{{ \textbf{#1} (#2)\\ \emph{#3}\\  }}
+\newcommand{\projectnoguide}[2]{{ \textbf{#1} (#2)\\  }}
+\newcommand{\contact}[2]{
+%\vspace*{-8pt}
+\begin{center}
+{\LARGE \scshape {#1}}\\
+%#2 \lineunder
+#2
+\end{center}
+\vspace*{-8pt}
+}
+\newcommand{\sbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{2}\end{picture}\ }
+\newcommand{\lbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{3}\end{picture}\ }
+\newenvironment{achievements}{
+    \begin{list}{$\lbt$}{
+        \topsep 0pt
+        \itemsep 0pt
+        \addtolength{\leftmargin}{-0.1in}
+    }
+}
+{
+    \vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses}[4]{
+ \textbf{#1} \hfill{#2}\\
+    #3\\
+\vspace*{5pt}
+}
+\newcommand{\school}[4]{
+ \textbf{#1} #2 $\bullet$ #3\\
+#4 \\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\small
+\smallskip
+\vspace*{-35pt}
+
+\contact{Lim Chang Siang}
+{email: me@changsiang.net $\sbt$ hp: +65-8201 0357}
+
+\header{Education}
+\vspace{2mm}
+\schoolwithcourses{National University of Singapore, Singapore}{2017 - 2018}{Graduate Diploma in System Analysis. CGPA: 4.58/5.00}
+
+\schoolwithcourses{University of Bradford, United Kingdom}{2015}{Bachelor of Science (Hons) in Biomedical Science. First Class Honours}
+\hfill{}
+
+
+\header{Professional Experience}
+\vspace{2mm}
+\schoolwithcourses{Research Assistant at Saw Swee Hock School of Public Health (NUS)}{ Aug 2018-Present}
+{Primary role as a full-stack developer, developed mobile and web application to support tele-health research projects. Conduct user interview to elicit requirements for application development and prepare requirement documentations. Performed statistical analysis on research data to infer user behaviour of health application prepare figures for publication. Participate in the write up and publication of research findings.}
+
+\schoolwithcourses{Research Officer at Institute of Molecular and Cell Biology (A*STAR)}{
+2015 - 2017}
+{Primary role is to conduct experiments on diabetes-related research project. Developed stem cell differentiation protocol to derive pancreatic beta cell from human induced-pluripotent stem cells. Spearheaded new technique in the lab, including: flow cytometry, con-focal microscopy and immunohistochemistry. Perform data analysis on Next Generation Sequencing data (ChIPSeq, RNASeq, Metabolomics and SC-Seq). Co-authored 3 research publications and 1 review article in the lab.}
+\hfill{}
+
+\header{Academic Publications}
+\vspace{2mm}
+\begin{achievements}
+\justifying
+\item {Teo, A. K., \textbf{Lim, C. S.}, Cheow, L. F., Kin, T., Shapiro, J. A., Kang, N.Y, Lau, H. H. (2018). \textbf{Single-cell analyses of human islet cells reveal de-differentiation signatures.} Cell Death Discovery, 4(1). doi:10.1038/s41420-017-0014-5}
+\item {Ng, N. H. J., Joanita, B. J., \textbf{Lim, C. S.}, Lau, H. H., Vidhya, G. K., et al., (2019). \textbf{HNF4A haploinsufficiency in MODY1 abrogates liver and pancreas differentiation from patient-derived iPSCs.} iScience, 16(1). doi: 10.1016/j.isci.2019.05.032}
+\item {Loo, L. S., Lau, H. H., Jasmen, J. B., \textbf{Lim, C. S.}, and Teo, A. K. (2017). \textbf{An arduous journey from human pluripotent stem cells to functional pancreatic beta cells. Diabetes, Obesity and Metabolism}, 20(1), 3-13. doi:10.1111/dom.12996}
+\end{achievements}
+\hfill{}
+
+\header{Technical Skills}
+\vspace{2mm}
+\begin{achievements}
+\justifying
+\item Biostatistic
+\item Programming Language: Python, R, Objective-C, C-sharp, Java, JavaScript, SQL
+\item Application Development: ASP .NET, iOS, Android, Angular
+\item Others: Design Thinking, Objective-Oriented Programming
+\end{achievements}
+\hfill{}
+
+\header{Training And Internships}
+\vspace{2mm}
+    \begin{achievements}
+\item Training in Core JAVA at HP Winter Training Nodal Centre, Kolkata with Grade A in Dec'15.
+    \item Internship on Introduction To Microcontroller at LNMIIT Jaipur during May-July'15.
+    \end{achievements}
+\hfill{}
+
+\header{Projects}
+\vspace{2mm}
+    \begin{achievements}
+\item ARM Processor based Street Lighting System using Solar Panel during July'16 - May'17.
+    \item{Design of an Artificial Neuron Using Basic Activation Function during Jan'16 - May'16.}
+    \item Multi Pass Assembler For SIC/XE Machine during Jan'16 - April'16.
+    
+    \end{achievements}
+\hfill{}
+
+
+\header{Relevant Courses}
+\vspace{2mm}
+
+   
+     \begin{achievements}
+    \item{The Professional English Language Training Course By British Council at IIEST Shibpur during Jan'16 - March'16.}
+     \item{An Elementary French Language Class Organised By Alliance Francaise Du Bengale at IIEST Shibpur during Jan'15 - May'15.}
+    \end{achievements}
+    \hfill{}
+   
+\header{Achievements}
+\vspace{2mm}
+\begin{achievements}
+\item Received GAABASEU Scholarship Award For the Academic Year 2016-17 and 2015-16.
+\item Secured All India Rank 141 and Kolkata City Rank 2nd in IEO Held in Feb'16.
+\item Received Certificate of Achievement For Outstanding Performance In GTSE 2013.
+\end{achievements}
+\hfill{}
+
+\header{Other Interests }
+\vspace{2mm}
+\begin{achievements}
+\justifying
+\item Cricket, Badminton, Swimming.
+\end{achievements}
+
+\end{document}
