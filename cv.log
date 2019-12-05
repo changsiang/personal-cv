@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.20)  22 NOV 2019 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.20)  5 DEC 2019 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -137,13 +137,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Here is how much of TeX's memory you used:
  1229 strings out of 492649
  15055 string characters out of 6129622
- 80680 words of memory out of 5000000
+ 79680 words of memory out of 5000000
  5145 multiletter control sequences out of 15000+600000
  7194 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,4n,27p,331b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,4n,27p,331b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on "/Users/changsiang/Documents/nBox/Chang Siang/cv/cv.pdf" (2 pages, 82614 bytes).
+Output written on "/Users/changsiang/Documents/nBox/Chang Siang/cv/cv.pdf" (2 pages, 84487 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
